@@ -24,6 +24,13 @@ This repository demonstrates a simple DevOps workflow to deliver and run a conta
 
 ---
 
+## Environment Configuration
+
+Create a `.env` file on the server based on `.env.example` and set a strong `JWT_SECRET`.
+Environment variables are not committed to GitHub.
+
+
+
 ## Production Compose (concept)
 
 In production we do **not** build on the server.
